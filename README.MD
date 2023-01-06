@@ -108,3 +108,12 @@ Since the Mac/iOS platforms prefer GCD to OpenMP for multiple-core parallel prog
 [1] Wu, Xiaoling, Shuhua Gao, Dong-Yan Huang, and Cheng Xiang. "Voichap: A standalone real-time voice change application on iOS platform." In 2017 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), pp. 728-732. IEEE, 2017.
 
 [2] Gao, Shuhua, Xiaoling Wu, Cheng Xiang, and Dongyan Huang. "Development of a computationally efficient voice conversion system on mobile phones." APSIPA Transactions on Signal and Information Processing 8 (2019). [PDF](https://www.researchgate.net/publication/330140206_Development_of_a_computationally_efficient_voice_conversion_system_on_mobile_phones)
+
+1-target
+Voice conversion refers to the modification of the voice of
+a speaker, called the source speaker, to make it sound as if
+it was uttered by another speaker, called the target speaker,
+while leaving the linguistic content unchanged. Therefore,
+the voice characteristics of the source speaker must be identified and transformed by a voice conversion system to
+mimic those of the target speaker, without changing the
+message transmitted in the speech 
