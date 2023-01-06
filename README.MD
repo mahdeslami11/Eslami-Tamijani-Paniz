@@ -114,6 +114,30 @@ Voice conversion refers to the modification of the voice of
 a speaker, called the source speaker, to make it sound as if
 it was uttered by another speaker, called the target speaker,
 while leaving the linguistic content unchanged. Therefore,
-the voice characteristics of the source speaker must be identified and transformed by a voice conversion system to
+the voice characteristics of the source speaker must be identified and transformed by a voice conversion system to
 mimic those of the target speaker, without changing the
 message transmitted in the speech 
+
+
+2-describe innovation 
+future work includes adding more functionality to the
+current iOS app and porting it to Android phones. This
+should not be a difficult task thanks to the sensible design
+of the software architecture shown in Fig. 5, where the compute engine is well decoupled from the GUI layer. Given
+the rapid growth in computational capability of mobile
+phones, it is promising that our voice conversion app can
+work even faster on newly released smart phones and, ideally, deep learning based approaches will become practical
+on mobile devices in the near future. Finally, it should
+be noted that the weighted frequency warping algorithm
+used in our system belongs to the most commonly used
+trajectory-based conversion approaches, which convert all
+spectral parameters of a complete utterance simultaneously.
+To further reduce the delay of voice conversion, framebased approaches capable of converting spectral parameters
+frame by frame are more desirable, e.g., the time-recursive
+conversion algorithm based on maximum likelihood estimation of spectral parameter trajectory , which is also
+planned in our future work.
+
+
+
+
+ 
