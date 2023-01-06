@@ -185,3 +185,4 @@ int main()
 	
 	
 	4-
+	After training, this algorithm produces a model file (whose path is specified by the user in the training phase). Then we can convert any voice audios from the source speaker to make it hear like the target speaker's voice with this model file. All the C APIs for conversion are contained in convert_C.h, which are well documented in the header file.
